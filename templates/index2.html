@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predict Cancer</title>
+</head>
+<body>
+<h2>Please enter histology features for classification:</h2>
+	
+	<form method= "POST" action="/results">
+
+
+			<ul >
+
+					<li id="li_1" >
+		<label class="description" for="element_1">Thickness </label>
+		<div>
+			<input id="element_1" name="thickness" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Size </label>
+		<div>
+			<input id="element_2" name="size" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Shape </label>
+		<div>
+			<input id="element_3" name="shape" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Adhesion </label>
+		<div>
+			<input id="element_4" name="adhesion" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Single </label>
+		<div>
+			<input id="element_5" name="single" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+				</li>		<li id="li_6" >
+		<label class="description" for="element_6">nuclei </label>
+		<div>
+			<input id="element_6" name="nuclei" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Chromatin </label>
+		<div>
+			<input id="element_7" name="chromatin" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_8" >
+		<label class="description" for="element_8">Nucleoli </label>
+		<div>
+			<input id="element_8" name="nucleoli" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_9" >
+		<label class="description" for="element_9">Mitosis </label>
+		<div>
+			<input id="element_9" name="mitosis" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>
+
+
+			</ul>
+
+		
+		<div>
+			<input type=submit value='Classify' name='submit_btn'>
+		</div>
+	</form>
+
+
+</body>
+</html>

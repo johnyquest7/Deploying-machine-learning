@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+</head>
+<body>
+<h2>Please enter histology features for classification:</h2>
+	
+	<form method=post action="/results">
+
+					<div class="form_description">
+			<h2>Data Input</h2>
+			<p>Collects data</p>
+		</div>
+			<ul >
+
+					<li id="li_1" >
+		<label class="description" for="element_1">Thickness </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Size </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Shape </label>
+		<div>
+			<input id="element_3" name="element_3" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Adhesion </label>
+		<div>
+			<input id="element_4" name="element_4" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Single </label>
+		<div>
+			<input id="element_5" name="element_5" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_6" >
+		<label class="description" for="element_6">Chromatin </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Nucleoli </label>
+		<div>
+			<input id="element_7" name="element_7" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_8" >
+		<label class="description" for="element_8">Mitosis </label>
+		<div>
+			<input id="element_8" name="element_8" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>
+
+					<li class="buttons">
+
+		</li>
+			</ul>
+		</form>
+		
+		<div>
+			<input type=submit value='Classify' name='submit_btn'>
+		</div>
+	</form>
+
+
+</body>
+</html>
